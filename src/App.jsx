@@ -74,7 +74,6 @@ function App() {
 
         <div  className=''>
           <h2 className='text-center'>BodyMassIndex </h2>
-          <hr />
           <div className='m-3 text-center'>
             <h4 id='colorfeedback'>{status==="status" ? "" : status}</h4>
             <h3 id='' className=''>{bmi===0 ? "" : bmi}</h3>
